@@ -247,7 +247,7 @@ footer .social a:hover img {opacity: 1;}
 	header {height: 310px;}
 	header h1 { text-align: center;}
 	header h2, header .six.columns {display: none;}
-	header .slogan {padding: 2px 0;}
+	header .slogan {padding: 0px 0;}
 
 	ul.mainMenu { text-align: center}
 	ul.mainMenu li { display: inline-block; text-align: center; float: none;
