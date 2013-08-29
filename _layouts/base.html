@@ -62,25 +62,25 @@
 
 </head>
 <body>
-	<header>			
+	<header id="top">			
 		<nav>
 			<div class='container'>
 				<div class='five columns logo'>
-					<!-- <a href='#'>Company Logo</a> -->
-					<img src="images/misc/develer_logo.png" height="50">
+					<a href="#top">
+					<img src="images/misc/develer_logo.png" height="70">
+					</a>
 				</div>
-			<!--
+
 				<div class='eleven columns'>
 					<ul class='mainMenu'>
-						<li><a href='index.html' title='Home'>Home</a></li>
-						<li><a href='#' title='About us'>About us</a></li>
-						<li><a href='#' title='Pricing'>Pricing</a></li>
-						<li><a href='#' title='Blog'>Blog</a></li>
+						<li><a href='#bertos' title='BeRTOS'>BeRTOS</a></li>
+						<li><a href='#pyinstaller' title='PyInstaller'>PyInstaller</a></li>
+						<li><a href='#dspython' title='DSPython'>DSPython</a></li>
+						<li><a href='#pyqt3support' title='psqlita'>PGSQL-Italian-FTS</a></li>
 						<li><a href='#' title='Portfolio'>Portfolio</a></li>
 						<li><a href='#' title='Contact'>Contact</a></li>
 					</ul>
 				</div>
-			-->
 			</div>
 		</nav>
 
@@ -121,8 +121,7 @@
 		<div class='one-third column'>
 			<img src='images/misc/team.png'>
 			<h3>The Team</h3>
-			<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur.</p>
+			<p>Develerians are a weird assortment of geekness, playfulness and friendship. You can find them during breaks playing table soccer, Quake, doing Puzzle Bobble tournaments, or quietly studying the next new unheard technology at their desk.-</p>
 		</div>
 
 
@@ -152,7 +151,44 @@
 -->
 
 	<section class='gray'>
-		<div class='container'>
+		<div id="bertos" class='container'>
+
+			<div class='one-third column gallery'>
+				<img src="images/proj/bertos.png" width="90%">
+			</div>
+
+			<div class='two-thirds column'>
+				<h3>BeRTOS</h3>
+				<p>BeRTOS is a real time open source operating system supplied with drivers and libraries designed for the rapid development of embedded software. 
+
+				Perfect for building commercial applications with no license costs nor royalties, BeRTOS allows you to cut the economic investment for your products.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>C, Embedded, Multiplatform, Drivers, ARM, AVR, Cortex-M3, RTOS</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>Website:</b>
+					<a href="http://www.bertos.org">http://www.bertos.org</a>
+				</p>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/develersrl/bertos">https://github.com/develersrl/bertos</a></p>
+			</div>
+
+
+		</div>
+	</section>
+
+	<section>
+		<div id="pyinstaller" class='container'>
+
+			<div class='one-third column gallery'>
+				<img src="images/proj/pyinstaller.jpg" width="90%">
+			</div>
+
 			<div class='two-thirds column'>
 				<h3>PyInstaller</h3>
 				<p>PyInstaller is a program that converts (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, Solaris and AIX. Its main advantages over similar tools are that PyInstaller works with any version of Python since 2.3, it builds smaller executables thanks to transparent compression, it is fully multi-platform, and use the OS support to load the dynamic libraries, thus ensuring full compatibility.</p>
@@ -172,34 +208,84 @@
 					<a href="https://github.com/pyinstaller/pyinstaller">https://github.com/pyinstaller/pyinstaller</a></p>
 				<p><b>Video:</b> 
 					<a href="https://www.youtube.com/watch?v=MoL2nDYcW1U">  Introduction to PyInstaller</a>, talk by Giovanni Bajo at EuroPython 2011 </p>
-				<p><b>
-			</div>
-
-			<div class='one-third column gallery'>
-			</div>
-		</div>
-	</section>
-
-	<section>
-		<div class='container'>
-			<div class='two-thirds column'>
-				<h3>DSPython</h3>
-				<p>This work introduces a concrete way to expose Nintendo DS hardware to ​Python; it uses the ​Pyrex extension language to produce valid ​libnds wrappers in form of Python modules. It has been built upon the ​original port of Stackless Python 2.5 port to Nintendo DS, by Richard Tew.</p>
 			</div>
 		</div>
 	</section>
 
 	<section class='gray'>
-		<div class='container'>
-			<div class='two-thirds column'>
-				<h3>PyQt3Support</h3>
-				<p>PyQt3Support is an extension to PyQt4 that adds bindings to Qt's Qt3Support library for usage from the Python language. This is very helpful to migrate existing PyQt3 applications to PyQt4.</p>
-			</div>
+		<div id="dspython" class='container'>
 			<div class='one-third column gallery'>
+				<img src="images/proj/dspython.png" width="90%">
+			</div>
+
+			<div class='two-thirds column'>
+				<h3>DSPython</h3>
+				<p>This work introduces a concrete way to expose Nintendo DS hardware to ​Python; it uses the ​Pyrex extension language to produce valid ​libnds wrappers in form of Python modules. It has been built upon the ​original port of Stackless Python 2.5 port to Nintendo DS, by Richard Tew.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>Python, C, Gaming, Porting</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/develersrl/dspython">https://github.com/develersrl/dspython</a></p>
 			</div>
 		</div>
 	</section>
 
+	<section>
+		<div id="pyqt3support" class='container'>
+			<div class='one-third column gallery'>
+				<img src="images/proj/pyqt3support.png" width="90%">
+			</div>
+			<div class='two-thirds column'>
+				<h3>PyQt3Support</h3>
+				<p>PyQt3Support is an extension to PyQt4 that adds bindings to Qt's Qt3Support library for usage from the Python language. This is very helpful to migrate existing PyQt3 applications to PyQt4.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>Python, Porting, Qt</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/develersrl/pyqt3support">https://github.com/develersrl/pyqt3support</a></p>
+			</div>
+		</div>
+	</section>
+
+	<section class="gray">
+		<div id="pgsqlita" class='container'>
+			<div class='one-third column gallery'>
+				<img src="images/proj/pgsqlita.png" width="90%">
+			</div>
+			<div class='two-thirds column'>
+				<h3>PostgreSQL Italian FTS</h3>
+				<p>This package provides a dictionary and the other files required to perform full text search in Italian documents using the PostgreSQL database.
+
+				Using the provided dictionary, search operations in Italian documents can keep into account morphological variations of Italian words, such as verb conjugations.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>C, PostgreSQL, FTS</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>Website:</b> 
+					<a href="https://www.develer.com/~piro/ispell-italian/italian-fts.html">https://www.develer.com/~piro/ispell-italian/italian-fts.html</a></p>
+			</div>
+		</div>
+	</section>
+
+
+<!-- 
 	<div class='container'>
 		<div class='sixteen columns form'>
 			<h3>Drop the beat wub dub dub</h3>
@@ -215,10 +301,49 @@
 			</form>
 		</div>
 	</div>
+-->
+<!-- 
+	<section>
+
+	<div class='container focus'>
+
+	    <h3>Smaller contributions and patches</h3>
+
+	    <div class='eight columns'>
+	      <h4>WRITING</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	    </div>
+
+	    <div class='eight columns'>
+	      <h4>PRESENTATION</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	    </div>
 
 
-	<div class='clear'></div>
+	    <div class='clear'></div>
 
+
+	    <div class='eight columns'>
+	      <h4>NEGOTIATING</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	    </div>
+
+	    <div class='eight columns'>
+	      <h4>GRAMMAR</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	    </div>
+
+  	</div>
+	</section>
+-->
 
 	<footer>
 		<div class='container'>
