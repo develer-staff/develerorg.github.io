@@ -423,11 +423,14 @@
 
 	<script type="text/javascript">
 		var toper = $('a#top');
+		var timer;
 
 
 		$(window).scroll(function(){
             if ($(this).scrollTop() > 100) {
                 toper.fadeIn( 200 );
+                clearTimeout(timer);
+                timer = setTimeout(function() { toper.fadeOut(200); }, 1000);
             } else {
                 toper.fadeOut( 200 );
             }
