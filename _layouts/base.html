@@ -77,7 +77,8 @@
 						<li><a href='#pyinstaller' title='PyInstaller'>PyInstaller</a></li>
 						<li><a href='#dspython' title='DSPython'>DSPython</a></li>
 						<li><a href='#pyqt3support' title='PyQt3Support'>PyQt3Support</a></li>
-						<li><a href='#pgsqlita' title='psqlita'>PGSQL-Italian-FTS</a></li>
+						<li><a href='#pgsqlita' title='Postgres Italian FTS'>PGSQL-Italian-FTS</a></li>
+						<li><a href='#demoqml' title='QtQuick Demo'>QtQuick Demo</a></li>
 					</ul>
 				</div>
 			</div>
@@ -87,7 +88,7 @@
 			<div class='slogan'>
 				<div class='ten columns'>
 					<h1>Our FLOSS projects</h1>
-					<h2>Check out our contributions to the FLOSS ecosystem</h2>
+					<h2>Check out a few projects that we released as free software.</h2>
 				</div>
 
 				<div class='six columns'>
@@ -219,7 +220,7 @@
 
 			<div class='two-thirds column'>
 				<h3>DSPython</h3>
-				<p>This work introduces a concrete way to expose Nintendo DS hardware to ​Python; it uses the ​Pyrex extension language to produce valid ​libnds wrappers in form of Python modules. It has been built upon the ​original port of Stackless Python 2.5 port to Nintendo DS, by Richard Tew.</p>
+				<p>This work introduces a concrete way to expose Nintendo DS hardware to ​Stackless Python; it uses the ​Pyrex extension language to produce valid ​libnds wrappers in form of Python modules. It has been built upon the ​original port of Stackless Python 2.5 port to Nintendo DS, by Richard Tew.</p>
 
 				<div class="clear"></div>
 
@@ -283,6 +284,28 @@
 		</div>
 	</section>
 
+	<section>
+		<div id="demoqml" class='container'>
+			<div class='one-third column gallery'>
+				<img src="images/proj/qmldemo.jpg" width="90%">
+			</div>
+			<div class='two-thirds column'>
+				<h3>QtQuick Demo: MRI Software</h3>
+				<p>This is a demo that shows the power of the QtQuick/QML framework, part of Qt 5. It implements a simple prototype software for browsing MRI scans. It can be executed on a normal PC, but it is meant to be executed on a Linux-embedded multi-touch system.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>C++, Javascript, QML, QtQuick, Qt, Linux, Embedded</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/develersrl/demo-qml">https://github.com/develersrl/demo-qml</a></p>
+			</div>
+		</div>
+	</section>
 
 <!-- 
 	<div class='container'>
@@ -301,25 +324,23 @@
 		</div>
 	</div>
 -->
-<!-- 
-	<section>
+
+	<section class='gray'>
 
 	<div class='container focus'>
 
-	    <h3>Smaller contributions and patches</h3>
+	    <h3>Other projects and contributions</h3>
 
 	    <div class='eight columns'>
-	      <h4>WRITING</h4>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	      <a href="https://github.com/develersrl/gccwinbinaries"><h4>Windows GCC Binaries for Python</h4></a>
+	      <p>A friendly installer for GCC 4.3.3 for Windows (native "mingw" win32 version). It features full Python integration, to produce extensions (.pyd) which are fully compatible with the official python.org distribution.
+	      </p>
 	    </div>
 
 	    <div class='eight columns'>
-	      <h4>PRESENTATION</h4>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	      <a href="https://github.com/develersrl/deluxeloginfo"><h4>Deluxeloginfo</h4></a>
+	      <p>A tool to generate e-mail commit logs / summaries for Subversion/SVN, Git and Mercurial/hg. It's been used in Develer for many years to generate
+	      	emails and do code reviews. </p>
 	    </div>
 
 
@@ -327,22 +348,18 @@
 
 
 	    <div class='eight columns'>
-	      <h4>NEGOTIATING</h4>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	      <a href="http://www.maliit.org"><h4>Maliit</h4></a>
+	      <p>A virtual keyboard and input framework for Qt. By working with the maintainers and contributing patches, we achieved a full port to Linux Embedded systems, for both Qt4 and Qt5. This allowed us to ship an embedded product with a virtual keyboard.</p>
 	    </div>
 
 	    <div class='eight columns'>
-	      <h4>GRAMMAR</h4>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+	      <h4><a href="https://github.com/pythonitalia/microblog">Microblog</a> &amp; <a href="https://github.com/pythonitalia/hcomments">hcomments</a></h4>
+	      <p>Two Python Django modular app to implement a very simple blogging engine (with full support for creating posts in the Django admin) and modular hierarchical comments, that can be used as commenting system on blog posts, or even on standard pages. You can see both of them live on the <a href="https://europython.eu">EuroPython</a> website.</p>
 	    </div>
 
   	</div>
 	</section>
--->
+
 
 	<footer>
 		<div class='container'>
