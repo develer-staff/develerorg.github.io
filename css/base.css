@@ -244,7 +244,7 @@ footer .social a:hover img {opacity: 1;}
 
 @media only screen and (max-width: 767px) {
 
-	header {height: 310px;}
+	header {height: 340px;}
 	header h1 { text-align: center;}
 	header h2, header .six.columns {display: none;}
 	header .slogan {padding: 0px 0;}
