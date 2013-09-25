@@ -1,3 +1,534 @@
----
-layout: base
----
+<!-- =============================================== -->
+<!-- =                                             = -->
+<!-- =                Keyners	                   = -->
+<!-- =                                             = -->
+<!-- =          http://keyners.com/	               = -->
+<!-- =============================================== -->
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Develer Open Source Projects</title>
+	<meta name="description" content="List of Develer open-source projects">
+	<meta name="author" content="Develer Srl">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- PT Sans -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<!-- Crete Roung -->
+	<link href='http://fonts.googleapis.com/css?family=Crete+Round&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+	<script type="text/javascript" src="js/validate.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+				$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		});
+	</script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-2302305-3', 'develer.org');
+	  ga('send', 'pageview');
+	</script>
+
+</head>
+<body>
+	<header id="top">			
+		<nav>
+			<div class='container'>
+				<div class='five columns logo'>
+					<a href="#top">
+					<img src="images/misc/develer_logo.png" height="70">
+					</a>
+				</div>
+
+				<div class='eleven columns'>
+					<ul class='mainMenu'>
+						<li><a href='#bertos' title='BeRTOS'>BeRTOS</a></li>
+						<li><a href='#pyinstaller' title='PyInstaller'>PyInstaller</a></li>
+						<li><a href='#dspython' title='DSPython'>DSPython</a></li>
+						<li><a href='#pyqt3support' title='PyQt3Support'>PyQt3Support</a></li>
+						<li><a href='#pgsqlita' title='Postgres Italian FTS'>PGSQL-Italian-FTS</a></li>
+						<li><a href='#demoqml' title='QtQuick Demo'>QtQuick Demo</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class='container'>
+			<div class='slogan'>
+				<div class='ten columns'>
+					<h1>Our free projects</h1>
+					<h2>Check out a few projects that we released as free software.</h2>
+				</div>
+
+				<div class='six columns'>
+					<h4>What is this site?</h4>
+					<p>This is a short showcase of the open-source projects that
+					   Develerians have been involved with, at some level. Some
+					   things are trivial patches, other are full solutions.</p>
+					<!-- <a href='#' class='button medium green'>See the price</a> -->
+				</div>
+			</div>
+		</div>	
+	</header>
+
+
+	<div class='clear'></div>
+	<div class='clear'></div>
+
+
+	<div class='container'>
+
+		<div class='one-third column'>
+			<img src='images/misc/about_us.png'>
+			<h3>About Us</h3>
+			<p>Develer is a software and hardware development company, Have a look at
+			our <a href="http://www.develer.com">corporate website</a> to learn more
+			about us and how we can help you.</p>
+		</div>
+
+
+		<div class='one-third column'>
+			<img src='images/misc/team.png'>
+			<h3>The Team</h3>
+			<p>Develerians are a weird assortment of geekness, playfulness and friendship. You can find them during breaks playing table soccer, Quake, doing Puzzle Bobble tournaments, or quietly studying the next new unheard technology at their desk.-</p>
+		</div>
+
+
+
+		<div class='one-third column'>
+			<img src='images/misc/goals.png'>
+			<h3>Technologies</h3>
+			<p>We love working with Python, Qt, C++ and Linux systems. Need help with
+				these technologies? Write us!</p>
+		</div>
+		
+	</div>
+
+
+	<div class='clear'></div>
+
+<!-- 
+	<div class='orange'>
+		<div class='container'>
+			<h3>Get to know what we do</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			<a href='#' class='dalej'>See closer what we do</a>
+		</div>
+	</div>
+-->
+
+	<section class='gray'>
+		<div id="bertos" class='container'>
+
+			<div class='one-third column gallery'>
+				<img src="images/proj/bertos.png" width="90%">
+			</div>
+
+			<div class='two-thirds column'>
+				<h3>BeRTOS</h3>
+				<p>BeRTOS is a real time open source operating system supplied with drivers and libraries designed for the rapid development of embedded software. 
+
+				Perfect for building commercial applications with no license costs nor royalties, BeRTOS allows you to cut the economic investment for your products.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>C, Embedded, Multiplatform, Drivers, ARM, AVR, Cortex-M3, RTOS</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>Website:</b>
+					<a href="http://www.bertos.org">http://www.bertos.org</a>
+				</p>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/develersrl/bertos">https://github.com/develersrl/bertos</a></p>
+			</div>
+
+
+		</div>
+	</section>
+
+	<section>
+		<div id="pyinstaller" class='container'>
+
+			<div class='one-third column gallery'>
+				<img src="images/proj/pyinstaller.jpg" width="90%">
+			</div>
+
+			<div class='two-thirds column'>
+				<h3>PyInstaller</h3>
+				<p>PyInstaller is a program that converts (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, Solaris and AIX. Its main advantages over similar tools are that PyInstaller works with any version of Python since 2.3, it builds smaller executables thanks to transparent compression, it is fully multi-platform, and use the OS support to load the dynamic libraries, thus ensuring full compatibility.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>Python, C, Multiplatform</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>Website:</b>
+					<a href="http://www.pyinstaller.org">http://www.pyinstaller.org</a>
+				</p>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/pyinstaller/pyinstaller">https://github.com/pyinstaller/pyinstaller</a></p>
+				<p><b>Video:</b> 
+					<a href="https://www.youtube.com/watch?v=MoL2nDYcW1U">  Introduction to PyInstaller</a>, talk by Giovanni Bajo at EuroPython 2011 </p>
+			</div>
+		</div>
+	</section>
+
+	<section class='gray'>
+		<div id="dspython" class='container'>
+			<div class='one-third column gallery'>
+				<img src="images/proj/dspython.png" width="90%">
+			</div>
+
+			<div class='two-thirds column'>
+				<h3>DSPython</h3>
+				<p>This work introduces a concrete way to expose Nintendo DS hardware to ​Stackless Python; it uses the ​Pyrex extension language to produce valid ​libnds wrappers in form of Python modules. It has been built upon the ​original port of Stackless Python 2.5 port to Nintendo DS, by Richard Tew.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>Python, C, Gaming, Porting</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/develersrl/dspython">https://github.com/develersrl/dspython</a></p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div id="pyqt3support" class='container'>
+			<div class='one-third column gallery'>
+				<img src="images/proj/pyqt3support.png" width="90%">
+			</div>
+			<div class='two-thirds column'>
+				<h3>PyQt3Support</h3>
+				<p>PyQt3Support is an extension to PyQt4 that adds bindings to Qt's Qt3Support library for usage from the Python language. This is very helpful to migrate existing PyQt3 applications to PyQt4.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>Python, Porting, Qt</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/develersrl/pyqt3support">https://github.com/develersrl/pyqt3support</a></p>
+			</div>
+		</div>
+	</section>
+
+	<section class="gray">
+		<div id="pgsqlita" class='container'>
+			<div class='one-third column gallery'>
+				<img src="images/proj/pgsqlita.png" width="90%">
+			</div>
+			<div class='two-thirds column'>
+				<h3>PostgreSQL Italian FTS</h3>
+				<p>This package provides a dictionary and the other files required to perform full text search in Italian documents using the PostgreSQL database.
+
+				Using the provided dictionary, search operations in Italian documents can keep into account morphological variations of Italian words, such as verb conjugations.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>C, PostgreSQL, FTS</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>Website:</b> 
+					<a href="https://www.develer.com/~piro/ispell-italian/italian-fts.html">https://www.develer.com/~piro/ispell-italian/italian-fts.html</a></p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div id="demoqml" class='container'>
+			<div class='one-third column gallery'>
+				<img src="images/proj/qmldemo.jpg" width="90%">
+			</div>
+			<div class='two-thirds column'>
+				<h3>QtQuick Demo: MRI Software</h3>
+				<p>This is a demo that shows the power of the QtQuick/QML framework, part of Qt 5. It implements a simple prototype software for browsing MRI scans. It can be executed on a normal PC, but it is meant to be executed on a Linux-embedded multi-touch system.</p>
+
+				<div class="clear"></div>
+
+				<h4>Tags</h4>
+				<p>C++, Javascript, QML, QtQuick, Qt, Linux, Embedded</p>
+
+				<div class="clear"></div>
+
+				<h4>Resources</h4>
+				<p><b>GitHub:</b> 
+					<a href="https://github.com/develersrl/demo-qml">https://github.com/develersrl/demo-qml</a></p>
+			</div>
+		</div>
+	</section>
+
+<!-- 
+	<div class='container'>
+		<div class='sixteen columns form'>
+			<h3>Drop the beat wub dub dub</h3>
+			<p>Go ahead, write something. Send it, wait untill we response.</p>
+			<form>
+				<label>Your name, dude</label>
+				<input type='text' name='name' placeholder='Name or last name'>
+				<label>Now, where should we replay?</label>
+				<input type='text' name='mail' placeholder='Your e-mail address'>
+				<label>The hard part. Message</label>
+				<textarea cols='50' rows='15' name='message'></textarea>
+				<input type='submit' value='Let it fly!'>
+			</form>
+		</div>
+	</div>
+-->
+
+	<section class='gray'>
+
+	<div class='container focus'>
+
+	    <h3>Other projects and contributions</h3>
+	    <div class='clear'></div>
+
+	    <div class='eight columns'>
+	      <a href="https://github.com/develersrl/gccwinbinaries"><h4>Windows GCC Binaries for Python</h4></a>
+	      <p>A friendly installer for GCC 4.3.3 for Windows (native "mingw" win32 version). It features full Python integration, to produce extensions (.pyd) which are fully compatible with the official python.org distribution.
+	      </p>
+	    </div>
+
+	    <div class='eight columns'>
+	      <a href="https://github.com/develersrl/deluxeloginfo"><h4>Deluxeloginfo</h4></a>
+	      <p>A tool to generate e-mail commit logs / summaries for Subversion/SVN, Git and Mercurial/hg. It's been used in Develer for many years to generate
+	      	emails and do code reviews. </p>
+	    </div>
+
+
+	    <div class='clear'></div>
+
+
+	    <div class='eight columns'>
+	      <a href="http://www.maliit.org"><h4>Maliit</h4></a>
+	      <p>A virtual keyboard and input framework for Qt. By working with the maintainers and contributing patches, we achieved a full port to Linux Embedded systems, for both Qt4 and Qt5. This allowed us to ship an embedded product with a virtual keyboard.</p>
+	    </div>
+
+	    <div class='eight columns'>
+	      <h4><a href="https://github.com/pythonitalia/microblog">Microblog</a> &amp; <a href="https://github.com/pythonitalia/hcomments">hcomments</a></h4>
+	      <p>Two Python Django modular app to implement a very simple blogging engine (with full support for creating posts in the Django admin) and modular hierarchical comments, that can be used as commenting system on blog posts, or even on standard pages. You can see both of them live on the <a href="https://europython.eu">EuroPython</a> website.</p>
+	    </div>
+
+	    <div class='clear'></div>
+
+	    <div class='eight columns'>
+	      <a href="https://github.com/develersrl/qtquick2-bem"><h4>QtQuick Animated Slides</h4></a>
+	      <p>A full presentation of QtQuick 2 made... in QtQuick 2. Nice slides
+	      	with cute animation and transition effects. They were used during a
+	      	presentation at <a href="http://www.betterembedded.it">Better Embedded 2013.</a></p>
+	    </div>
+
+	    <div class='eight columns'>
+	      <h4><a href="https://github.com/develersrl/shorturl">Shorturl</a></h4>
+	      <p>This is a simple, free, open-source URL shortener, written with Python and Django. It is currently used to power <a href="http://dvlr.it">dvlr.it</a>, the private URL shortener used by Develer.</p>
+	    </div>
+
+	    <div class='clear'></div>
+
+	    <div class='four columns'>
+	    	&nbsp;
+	    </div>
+
+	    <div class='eight columns'>
+	      <h4><a href="https://github.com/develersrl/pgl4rbl">pgl4rbl</a></h4>
+	      <p>This package implements a Postfix policy server that mixes two widely used techniques: greylisting and RBL (DNS blacklists). The idea is that greylisting is applied only to SMTP clients that match a RBL; this means that normal clients are not delayed (such as with a normal greylisting implementation), and RBL false positives do not cause problems (like when outright blocking them at the SMTP level).</p>
+	    </div>
+
+  	</div>
+	</section>
+
+
+	<footer>
+		<div class='container'>
+			
+			<div class='eight columns'>
+				<h5>Develer FLOSS Projects</h5>
+				<p>This is a short showcase of the open-source projects that Develerians have been involved with, at some level. Some things are trivial patches, other are full solutions.</p>
+				<p>Website template by <a href="http://www.keyners.com">Keyners</a>.
+				<p>Learn more about Develer at our <a href="http://www.develer.com">corporate website</a>.</p>
+			</div>
+
+			<div class='four columns social'>
+				&nbsp;
+				<!-- 
+				<h5>Social media</h5>
+				<a href='#'><img src='images/social/dribbble.png'></a>
+				<a href='#'><img src='images/social/facebook.png'></a>
+				<a href='#'><img src='images/social/twitter.png'></a>
+				<a href='#'><img src='images/social/forrst.png'></a>
+			-->
+			</div>
+
+			<div class='four columns'>
+				<h5>Get in touch</h5>
+				<p>Visist our main site:<br/>
+					w: <a href="http://www.develer.com">www.develer.com</a></p>
+				<p>Call us at:<br/>
+					t: +39-055-3984627</p>
+				<p>Or drop us a line on:<br/>
+					e: <a href='mailto:info@develer.com'>info@develer.com</a></p>
+			</div>
+
+
+		<a id='top' href='#'>&uarr;</a>	
+		</div>
+	</footer>
+	<script type="text/javascript">	
+		var form = $('form');
+	
+		$(document).ready(function(){
+		    form.validate({
+		    	ignore: "",
+	            rules: {
+	            	'message': {
+	                    required: true,	                 
+	                },
+	            	'name': {
+	                    required: true,	                 
+	                },
+	                'mail': {
+	                    required: true,
+	                    email: true
+	                }			                
+	            },
+	            errorPlacement: function(error, element){}
+
+		    });
+		  });     
+	</script>
+
+
+	<script type="text/javascript">
+		var toper = $('a#top');
+		var timer;
+
+
+		$(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                toper.fadeIn( 200 );
+                clearTimeout(timer);
+                timer = setTimeout(function() { toper.fadeOut(200); }, 1000);
+            } else {
+                toper.fadeOut( 200 );
+            }
+        });
+
+        toper.click(function(){
+        	$('html, body').animate({scrollTop:0}, 500);	        	
+        	return false;
+    	});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  function filterPath(string) {
+			  return string
+			    .replace(/^\//,'')
+			    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+			    .replace(/\/$/,'');
+		  }
+		  var locationPath = filterPath(location.pathname);
+		  var scrollElem = scrollableElement('html', 'body');
+		 
+		  $('a[href*=#]').each(function() {
+		    var thisPath = filterPath(this.pathname) || locationPath;
+		    if (  locationPath == thisPath
+		    && (location.hostname == this.hostname || !this.hostname)
+		    && this.hash.replace(/#/,'') ) {
+		      var $target = $(this.hash), target = this.hash;
+		      if (target) {
+		        var targetOffset = $target.offset().top;
+		        $(this).click(function(event) {
+		          event.preventDefault();
+		          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+		            location.hash = target;
+		          });
+		        });
+		      }
+		    }
+		  });
+		 
+		  // use the first element that is "scrollable"
+		  function scrollableElement(els) {
+		    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+		      var el = arguments[i],
+		          $scrollElement = $(el);
+		      if ($scrollElement.scrollTop()> 0) {
+		        return el;
+		      } else {
+		        $scrollElement.scrollTop(1);
+		        var isScrollable = $scrollElement.scrollTop()> 0;
+		        $scrollElement.scrollTop(0);
+		        if (isScrollable) {
+		          return el;
+		        }
+		      }
+		    }
+		    return [];
+		  }
+		 
+		});
+	</script>
+
+
+</body>
+</html>
