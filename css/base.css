@@ -209,7 +209,7 @@ a.green:hover {background: #36ae7e}
 footer {width: 100%; float: left; margin: 20px 0 0; padding: 30px 0; background: #333;}
 footer h5 {color: #ccc;}
 footer p {color: #aaa; line-height: 15px; font-size: 12px; margin-bottom: 7px;}
-footer a {color: #ddd;}
+footer a, footer a:visited {color: #ddd;}
 footer a:hover {color: #ff6a00;}
 
 footer .social a {float: left; margin-right: 10px;}
