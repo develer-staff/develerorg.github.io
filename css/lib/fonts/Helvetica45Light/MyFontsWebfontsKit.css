@@ -1,0 +1,27 @@
+/* @license
+ * MyFonts Webfont Build ID 2680950, 2013-11-04T11:43:24-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Helvetica 45 Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/neue-helvetica/helvetica-45-light/
+ * Copyright: Copyright &#x00A9; 1988, 1990, 1993, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2680950
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/28e876");
+
+  
+@font-face {font-family: 'HelveticaNeueLTStd-Lt';src: url('webfonts/28E876_0_0.eot');src: url('webfonts/28E876_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/28E876_0_0.woff') format('woff'),url('webfonts/28E876_0_0.ttf') format('truetype');}
+ 
