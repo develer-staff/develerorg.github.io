@@ -47,7 +47,7 @@ ul li {margin-bottom: 5px;}
 /*
 * divs random
 */
-.container .clear, body .clear {width: 100%; float: left; clear: both; margin: 20px 0;}
+.container .clear, body .clear {width: 100%; clear: both; margin: 20px 0;}
 .one-third {text-align: center;}
 
 /*
