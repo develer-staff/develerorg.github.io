@@ -283,6 +283,9 @@ footer .social a:hover img {opacity: 1;}
 	height: 20px;
 	letter-spacing: 0.5px;
 }
+#top-menu .multisite-menu {
+	padding: 0 10px;
+}
 #top-menu .multisite-menu a {
 	display: inline-block;
 	line-height: 20px;
